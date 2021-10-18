@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Card from './CardUi'
+import "./card-style.css"
 
 function Cards() {
     return (

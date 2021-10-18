@@ -12,6 +12,7 @@ import SignUp from "./components/Signup";
 import Dashboard from "./components/Dashboard";
 import SignIn from "./components/SignIn";
 import Reset from "./components/Reset"
+import Cards from "./components/Card";
 
 function App() {
   return (
@@ -67,7 +68,8 @@ function App() {
 
             <Route path="/about">
               <Header />
-              <About />
+              <Cards />
+              {/* <About /> */}
               <Footer />
             </Route>
 
